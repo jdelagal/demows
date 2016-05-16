@@ -1,0 +1,8 @@
+com\msssi\es\schemas\ObjectFactory.class
+com\msssi\es\demows\Welcome.class
+com\msssi\es\schemas\MensajeBaseType.class
+com\msssi\es\schemas\EstadoType.class
+com\msssi\es\demows\WelcomeMsgPublisher.class
+com\msssi\es\schemas\package-info.class
+com\msssi\es\demows\WelcomeImpl.class
+com\msssi\es\demows\App.class

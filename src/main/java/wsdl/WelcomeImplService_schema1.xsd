@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://demows.es.msssi.com/" xmlns:tns="http://demows.es.msssi.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="getWelcomeMsg" type="tns:getWelcomeMsg"/>
+
+  <xs:element name="getWelcomeMsgResponse" type="tns:getWelcomeMsgResponse"/>
+
+  <xs:complexType name="getWelcomeMsg">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getWelcomeMsgResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
